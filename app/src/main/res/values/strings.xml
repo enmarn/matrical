@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Matrical</string>
+    <string name="copy">copy</string>
+    <string name="readme">
+        readme:dssf
+    </string>
+    <string name="compile">
+        /**\n
+        \t*将弧度度转换成角度\n
+        */
+        function toDegrees(rad){\n
+            return rad*180/PI;\n
+        }\n\n
+        /**\n
+        \t*将角度转换成弧度\n
+        */
+        function toRadians(deg){\n
+            return deg*PI/180;\n
+        }\n\n
+    </string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <!--<android.support.v4.widget.DrawerLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@android:color/transparent">-->
+        <!--&lt;!&ndash; 左侧滑动栏 &ndash;&gt;-->
+        <!--<RelativeLayout-->
+            <!--android:id="@+id/main_left_drawer_layout"-->
+            <!--android:layout_width="240dp"-->
+            <!--android:layout_height="300dp"-->
+            <!--android:layout_gravity="start"-->
+            <!--android:background="#5f3fdf"-->
+            <!--android:paddingTop="50dp">-->
+        <!--</RelativeLayout>-->
+
+    <!--</android.support.v4.widget.DrawerLayout>-->
+    <EditText
+        android:id="@+id/TestText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:text="run"
+        android:onClick="onTest"/>
+
+</LinearLayout>

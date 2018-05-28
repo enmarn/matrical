@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="400dp"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/SELECT9"
+        android:layout_width="300dp"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/SELECT0"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        />
+    <Button
+        android:id="@+id/SELECT1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        />
+    <Button
+        android:id="@+id/SELECT2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+
+        />
+    <Button
+        android:id="@+id/SELECT3"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        />
+    <Button
+        android:id="@+id/SELECT4"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+
+        />
+    <Button
+        android:id="@+id/SELECT5"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+
+        />
+    <Button
+        android:id="@+id/SELECT6"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+
+        />
+    <Button
+        android:id="@+id/SELECT7"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+
+        />
+</LinearLayout>

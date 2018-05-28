@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+        <Button
+            android:id="@+id/FUN_00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="sin()"
+            android:onClick="onClick"
+            android:textAllCaps="false"
+            android:background="@drawable/button_select"/>
+
+        <Button
+            android:id="@+id/FUN_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="0.2"
+            android:onClick="onClick"
+            android:text="cos()"
+            android:background="@drawable/button_select"/>
+
+        <Button
+            android:id="@+id/FUN_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="0.2"
+            android:text="acos()"
+            android:onClick="onClick"
+            android:background="@drawable/button_select"/>
+        <Button
+            android:id="@+id/FUN_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="asin()"
+            android:textAllCaps="false"
+            android:onClick="onClick"
+            android:background="@drawable/button_select"/>
+
+        <Button
+            android:id="@+id/FUN_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="0.2"
+            android:background="@drawable/button_select"
+            android:onClick="onClick"
+            android:text="exp()" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/FUN_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:textAllCaps="false"
+            android:onClick="onClick"
+            android:text="tan()"
+            android:background="@drawable/button_select"/>
+
+        <Button
+            android:id="@+id/FUN_11"
+            android:layout_width="wrap_content"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:onClick="onClick"
+            android:text="atan()"
+            android:background="@drawable/button_select"/>
+
+        <Button
+            android:id="@+id/FUN_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:textAllCaps="false"
+            android:layout_weight="0.2"
+            android:text="abs()"
+            android:background="@drawable/button_select"/>
+
+        <Button
+            android:id="@+id/FUN_13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:textAllCaps="false"
+            android:background="@drawable/button_select"
+            android:onClick="onClick"
+            android:text="ln()" />
+
+        <Button
+            android:id="@+id/FUN_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:textAllCaps="false"
+            android:background="@drawable/button_select"
+            android:onClick="onClick"
+            android:text="power()" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/FUN_CONST_00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:textAllCaps="false"
+            android:onClick="onClick"
+            android:text="PI"
+            android:background="@drawable/button_select"/>
+
+        <Button
+            android:id="@+id/FUN_CONST_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:textAllCaps="false"
+            android:layout_weight="0.2"
+            android:text="EXP"
+            android:background="@drawable/button_select"/>
+
+        <Button
+            android:id="@+id/FUN_OTHER_00"
+            android:layout_width="wrap_content"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:layout_weight="0.2"
+            android:background="@drawable/button_select"/>
+
+        <Button
+            android:id="@+id/FUN_OTHER_01"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:background="@drawable/button_select"
+            android:onClick="onClick"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="0.2"
+            android:onClick="onClick"
+            android:id="@+id/FUN_OTHER_02"
+            android:background="@drawable/button_select"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/FUN_OTHER_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="0.2"
+            android:onClick="onClick"
+            android:background="@drawable/button_select"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:id="@+id/FUN_OTHER_04"
+            android:textAllCaps="false"
+            android:onClick="onClick"
+            android:background="@drawable/button_select"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:textAllCaps="false"
+            android:onClick="onClick"
+            android:id="@+id/FUN_OTHER_05"
+            android:background="@drawable/button_select"/>
+
+        <Button
+            android:id="@+id/FUN_OTHER_06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:textAllCaps="false"
+            android:background="@drawable/button_select"
+            android:onClick="onClick"/>
+        <Button
+            android:id="@+id/FUN_OTHER_07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="0.2"
+            android:background="@drawable/button_select"
+            android:onClick="onClick"/>
+    </TableRow>
+
+</TableLayout>

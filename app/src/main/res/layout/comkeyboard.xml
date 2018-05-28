@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/AC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_select"
+            android:onClick="onClick"
+            android:text="AC" />
+        <Button
+            android:id="@+id/REDO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_select"
+            android:onClick="onClick"
+            android:text="RE" />
+        <Button
+            android:id="@+id/MOVE_LEFT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_select"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/MOVE_RIGHT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_select"
+            android:onClick="onClick"/>
+        <Button
+            android:id="@+id/OP_IS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:background="@drawable/button_select"
+            android:onClick="onClick"
+            android:text="=" />
+        <Button
+            android:id="@+id/LEFT_PARENTHESES"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_select"
+            android:onClick="onClick"
+            android:text="(" />
+
+        <Button
+            android:id="@+id/RIGHT_PARENTHESES"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_select"
+            android:onClick="onClick"
+            android:text=")" />
+
+        <Button
+            android:id="@+id/DEL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_select"
+            android:onClick="onClick"
+            android:text="DEL" />
+    </TableRow>
+</TableLayout>

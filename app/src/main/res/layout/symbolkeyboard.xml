@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/FOUR_SYMBOL_00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="1"
+            android:background="@drawable/button_select"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/FOUR_SYMBOL_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/button_select"
+            android:onClick="onClick"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/FOUR_SYMBOL_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/button_select"
+            android:onClick="onClick"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/FOUR_SYMBOL_03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/button_select"
+            android:onClick="onClick"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/FOUR_SYMBOL_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/button_select"
+            android:onClick="onClick"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/FOUR_SYMBOL_05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/button_select"
+            android:onClick="onClick"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/FOUR_SYMBOL_06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/button_select"
+            android:onClick="onClick"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/FOUR_SYMBOL_07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/button_select"
+            android:onClick="onClick"
+            android:text="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/FOUR_SYMBOL_10"
+            android:layout_width="wrap_content"
+            android:text="1"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/button_select"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/FOUR_SYMBOL_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="1"
+            android:background="@drawable/button_select"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/FOUR_SYMBOL_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_weight="3"
+            android:background="@drawable/button_select"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/FOUR_SYMBOL_13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/button_select"
+            android:text="1"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/FOUR_SYMBOL_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="1"
+            android:background="@drawable/button_select"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/FOUR_SYMBOL_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_weight="3"
+            android:background="@drawable/button_select"
+            android:onClick="onClick" />
+        <Button
+            android:id="@+id/FOUR_SYMBOL_16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_weight="3"
+            android:background="@drawable/button_select"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/FOUR_SYMBOL_17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_weight="3"
+            android:background="@drawable/button_select"
+            android:onClick="onClick" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/FOUR_SYMBOL_20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="1"
+            android:background="@drawable/button_select"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/FOUR_SYMBOL_21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/button_select"
+            android:text="1"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/FOUR_SYMBOL_22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="1"
+            android:background="@drawable/button_select"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/FOUR_SYMBOL_23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_weight="3"
+            android:background="@drawable/button_select"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/FOUR_SYMBOL_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/button_select"
+            android:text="1"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/FOUR_SYMBOL_25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_weight="3"
+            android:background="@drawable/button_select"
+            android:onClick="onClick" />
+        <Button
+            android:id="@+id/FOUR_SYMBOL_26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="1"
+            android:background="@drawable/button_select"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/FOUR_SYMBOL_27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_weight="3"
+            android:background="@drawable/button_select"
+            android:onClick="onClick" />
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/FOUR_SYMBOL_30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_weight="3"
+            android:background="@drawable/button_select"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/FOUR_SYMBOL_31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="1"
+            android:background="@drawable/button_select"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/FOUR_SYMBOL_32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_weight="3"
+            android:background="@drawable/button_select"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/FOUR_SYMBOL_33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_weight="3"
+            android:background="@drawable/button_select"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/FOUR_SYMBOL_34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="1"
+            android:background="@drawable/button_select"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/FOUR_SYMBOL_35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_weight="3"
+            android:background="@drawable/button_select"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/FOUR_SYMBOL_36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/button_select"
+            android:text="1"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/FOUR_SYMBOL_37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="1"
+            android:background="@drawable/button_select"
+            android:onClick="onClick" />
+    </TableRow>
+
+</TableLayout>
